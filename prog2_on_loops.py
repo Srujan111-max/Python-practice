@@ -26,6 +26,16 @@ list1 = (1,4,9,16,25,36,49,64,81,100)
 x = int(input("Enter the number to find in list: "))
 i = 0
 print(len(list1))
+
+# Use of break statement in a while loop
+i = 1
+while i <= 5:
+    print (i)
+    if (i == 3):
+        break
+    i += 1
+print("Loop terminated.")
+
 while i < len(list1):
     if (x == list1[i]):
         print("Found at index: ",i)
