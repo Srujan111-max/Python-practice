@@ -20,12 +20,30 @@ print ("the Sum of numbers from 1 to",n , "is:", sum)
 Name = input ("Enter the the name: ")
 for i in range (len(Name)):
     print("the ",i,"letter of Name is",Name[i])
+
+# Finding element in tuple using for
+list = (1,4,9,16,25,36,49,64,81,100,81)
+n = int(input("enter element to search: "))
+index = 0
+for i in list:
+    if (n == i):
+        print("element found at index:",index)
+        index += 1
+    index += 1
+if (n == i):
+    None
+else:
+    print("Not found")
     
-#5 Find the number in the tuple
+#5 Find the number in the tuple using while
 list1 = (1,4,9,16,25,36,49,64,81,100)
 x = int(input("Enter the number to find in list: "))
 i = 0
 print(len(list1))
+while i < len(list1):
+    if (x == list[i]):
+        print(" Found at index",i)
+    i += 1
 
 # Use of break statement in a while loop
 i = 1
