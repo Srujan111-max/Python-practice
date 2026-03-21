@@ -25,3 +25,9 @@ print(str3.find("Q")) # Returns -1 because -1 i.e., (negative indexing won't exi
 print(str3.count("l"))
 print(str3.count("am"))
 print(str3.count("javascript"))
+
+line = input("Enter the string: ") # Use of split and join functions
+line = line.split("ABC")
+print(line)
+line = "-".join(line)
+print (line) 
