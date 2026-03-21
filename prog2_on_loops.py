@@ -36,7 +36,12 @@ while i <= 5:
     i += 1
 print("Loop terminated.")
 
-while i < len(list1):
-    if (x == list1[i]):
-        print("Found at index: ",i)
+# Use of continue statement
+i = 1
+while i <= 5:
+    if (i == 3):
+        print ("the", i,"rd iteration is skipped")
+        i += 1
+        continue
+    print(i)
     i += 1
