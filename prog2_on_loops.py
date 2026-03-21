@@ -34,6 +34,13 @@ if (n == i):
     None
 else:
     print("Not found")
+
+# Fatorial of n numbers using for
+m = int(input("enter the number: "))
+mul = 1
+for i in range(m,1,-1):
+    mul = mul * i
+print(mul)
     
 #5 Find the number in the tuple using while
 list1 = (1,4,9,16,25,36,49,64,81,100)
@@ -79,3 +86,12 @@ while j <= 10:
         continue
     print (j)
     j += 1
+
+# Sum of n numbers using while 
+n = int(input("enter the number: "))
+i = 0
+sum = 0
+while i <= n:
+    sum = sum + i
+    i += 1
+print(sum)
