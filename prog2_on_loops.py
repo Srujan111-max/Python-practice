@@ -45,3 +45,19 @@ while i <= 5:
         continue
     print(i)
     i += 1
+
+i = 0
+while i <= 10:
+    if (i%2 == 0): # Prints ODD numbers from 1-10
+        i += 1
+        continue
+    print (i)
+    i += 1
+print("\n")
+j = 0
+while j <= 10:
+    if (j%2 != 0): # Prints EVEN numbers from 1-10
+        j += 1
+        continue
+    print (j)
+    j += 1
